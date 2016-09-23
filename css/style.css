@@ -1,0 +1,122 @@
+body{
+	font-family: 'Lato', sans-serif;
+	padding-top: 70px; 
+}
+.navbar-inverse .navbar-brand{
+	color: #fff;
+}
+.product{
+	width: 32%;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	background: #f2f2f2;
+}
+.product h2{
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer {
+    background-color: #474747;
+    margin-top: 10px;
+}
+
+footer .container {
+
+    min-height: 150px;
+}
+footer .container h3 {
+    color: #999;
+}
+footer .container p {
+    color: #666;
+}
+padding{
+    padding: 5px 10px;
+    box-shadow: inset 0 10px 4px -8px rgba(0,0,0,0.2);
+}
+h2 a:hover{
+	text-decoration: none;
+}
+
+li:hover{
+	transition: background-color 2.5s ease;
+	background-color: #dbdbdb;
+}
+.product .label{
+	margin-left: 5px;
+}
+.imagenp{
+	width: 60%;
+	float: left;
+}
+.info{
+	width: 30%;
+	float: right;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.price{
+	font-size: 25px;
+}
+.fecha{
+	margin-right: 5px;
+}
+.fecha2{
+	font-size: 15px;
+}
+.text-info{
+	margin-top: 0px;
+}
+.filter{
+	margin-left: 2px;
+	margin-bottom: 10px;
+}
+.order{
+	float: right;
+}
+.navbar-form {
+	margin: 0px;
+	padding: 0px;
+}
+.loginContainer{
+	width: 300px;
+	margin: 0 auto;
+}
+.loginContainer input {
+	margin: 10px 0;
+	font-size: 14px;
+}
+.info h4{
+	margin-top: 15px;
+}
+.buttons-create{
+	float: right;
+}
+
+.page {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.page li {display: inline;}
+
+ul.page li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+ul.page li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+ul.page li a:hover:not(.active) {background-color: #ddd;}
